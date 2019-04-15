@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #222; }
+
+/*progress Bar*/
+#progressBar {
+  width: 100%;
+  max-height: 5px;
+  background: rgba(0, 0, 0, 0.2);
+  overflow: hidden; }
+
+.progress {
+  width: 33.33%;
+  height: 5px;
+  background: #00BFFF;
+  transition: 700ms ease-in; }
+
+/*form styling*/
+form {
+  width: 70%;
+  margin: 100px auto; }
+
+.item {
+  max-height: 175px;
+  display: none; }
+
+label {
+  color: #fff;
+  font-weight: 800;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 2.6em;
+  display: block;
+  margin-bottom: 20px; }
+
+input {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  padding: 30px;
+  font-size: 1.9em;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  box-sizing: border-box; }
+
+input:focus,
+button:focus {
+  outline: none; }
+
+#actions {
+  position: absolute;
+  right: 5%;
+  bottom: 10%; }
+
+#actions button,
+form button {
+  padding: 15px;
+  border: none;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 100ms ease-in; }
+
+form button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 20px 50px;
+  color: #fff;
+  font-size: 1.8em;
+  background: #00BFFF; }
+
+#actions button:hover {
+  background: #00BFFF; }
+
+.active {
+  display: block; }
+
+/*clearfix*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */
